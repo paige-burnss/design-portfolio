@@ -24,13 +24,13 @@
 
     h1 {
       text-align: center;
-      font-size: 50px;
-      font-weight: 800px;
+      font-size: 40px;
+      font-weight: bold;
     }
 
     h3 {
       text-align: center;
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 300px;
     }
 
@@ -49,8 +49,23 @@
     }
 
     .linked {
-      color: rgb(67, 137, 209);
+      color: rgb(81, 202, 239);
       text-decoration: none;
+    }
+
+    .linked:hover {
+      color: rgb(37, 162, 187);
+      text-decoration: none;
+    }
+
+    .shortintro {
+      margin: 4% 15% 4% 15%;
+    }
+
+    .cards {
+      width: 100%;
+      height: auto;
+      padding:0px 0px 30px 0px;
     }
   </style>
 
@@ -58,7 +73,6 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-md navbar-light container-fluid">
     <div>
       <a class="navbar-brand" href="./home.html">
@@ -71,7 +85,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav justify-content-end">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="./home.html">Projects</a>
           </li>
@@ -86,14 +100,39 @@
     </div>
   </nav>
 
-  <div class="container-sm"></div>
-  <div class="container-md">
+  <div class="shortintro">
     <h1>Hi, I'm Paige </h1>
     <h3>Marketing and Computer Science @ <a href="https://www.colorado.edu" class="linked">University of Colorado
         Boulder</a> ● User Experience Intern @ <a href="https://www.cloudcampaign.com" class="linked">Cloud Campaign</a>
     </h3>
   </div>
-  <div class="container-sm"></div>
+
+  <div class="row">
+    <div class="col-lg">
+      <div class="cards mx-auto" id="card1">
+        <img src="./photos/cloud campaign-IP.png" class="card-img" alt="image">
+      </div>
+    </div>
+    <div class="col-lg">
+      <div class="cards mx-auto">
+        <img src="./photos/csci3308-budgetbuddy.png" class="card-img" alt="image">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg">
+      <div class="cards mx-auto">
+        <img src="./photos/IMG_3907.jpeg" class="card-img" alt="image">
+      </div>
+    </div>
+    <div class="col-lg">
+      <div class="cards mx-auto">
+        <img src="./photos/IMG_4021.jpeg" class="card-img" alt="image">
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
