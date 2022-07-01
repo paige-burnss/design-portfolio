@@ -1,0 +1,54 @@
+  
+  /* General CSS */
+  body {
+    padding: 1% 5% 1% 5%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300px;
+  }
+
+  /* Navigation Bar / Header */
+  .nav-link {
+    color: rgb(189, 189, 189);
+    font-size: 20px;
+    font-weight: 400px;
+  }
+
+  .nav-item a:hover {
+    color: rgb(117, 117, 117);
+  }
+
+  .active {
+    color: rgb(117, 117, 117);
+  }
+
+  .linked {
+    color: rgb(81, 202, 239);
+    text-decoration: none;
+  }
+
+  .linked:hover {
+    color: rgb(37, 162, 187);
+    text-decoration: none;
+  }
+
+  /* Project Page Header */
+  .shortintro {
+    margin: 4% 15% 4% 15%;
+  }
+
+  .cards {
+    width: 100%;
+    height: auto;
+    padding:0px 0px 30px 0px;
+  }
