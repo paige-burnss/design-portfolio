@@ -42,7 +42,7 @@
     text-decoration: none;
   }
 
-  /* Project Page Header */
+  /* Project Page */
   .shortintro {
     margin: 4% 15% 4% 15%;
   }
@@ -51,4 +51,56 @@
     width: 100%;
     height: auto;
     padding:0px 0px 30px 0px;
+    position:relative;
   }
+
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #8A82DB;
+    border-radius:15px;
+    margin-bottom:30px;
+  }
+
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#20B2A8;
+    border-radius:15px;
+    margin-bottom:30px;
+  }
+
+  .card1:hover .overlay1 {
+    opacity: 1;
+  }
+
+  .card2:hover .overlay2 {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
