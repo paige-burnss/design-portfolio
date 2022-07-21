@@ -16,7 +16,15 @@
     font-size: 20px;
     font-weight: 300px;
   }
-
+  h4{
+    font-size:20px;
+    text-align:left;
+    font-weight:bold;
+  }
+  h6{
+    line-height:1.6;
+  }
+  
   /* Navigation Bar / Header */
   .nav-link {
     color: rgb(189, 189, 189);
@@ -41,6 +49,7 @@
     color: rgb(37, 162, 187);
     text-decoration: none;
   }
+
 
   /* Project Page */
   .shortintro {
@@ -84,11 +93,68 @@
     margin-bottom:30px;
   }
 
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#73B220;
+    border-radius:15px;
+    margin-bottom:30px;
+  }
+
+  .overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#60BCFF;
+    border-radius:15px;
+    margin-bottom:30px;
+  }
+
+  .overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#544EA1;
+    border-radius:15px;
+    margin-bottom:30px;
+  }
+
   .card1:hover .overlay1 {
     opacity: 1;
   }
 
   .card2:hover .overlay2 {
+    opacity: 1;
+  }
+
+  .card3:hover .overlay3 {
+    opacity: 1;
+  }
+
+  .card4:hover .overlay4 {
+    opacity: 1;
+  }
+
+  .card5:hover .overlay5 {
     opacity: 1;
   }
 
@@ -104,3 +170,24 @@
     text-align: center;
   }
 
+  .ccmark{
+    background-color:rgba(138, 130, 219,.3);
+  }
+
+  hr{
+    color:black;
+    background-color:black; 
+    border-width:1px;
+  }
+
+  .screenshots{
+    width: 70%;
+    height: auto;
+    position:relative;
+    border: 5px solid black;
+  }
+
+  .writeup{
+    width:70%;
+    display:relative;
+  }
