@@ -170,8 +170,27 @@
     text-align: center;
   }
 
-  .ccmark{
-    background-color:rgba(138, 130, 219,.3);
+  .back{
+    color: black;
+    text-decoration: none;
+    display:inline-block;
+    vertical-align:top;
+    font-size:20px;
+  }
+
+  .back:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .backarrow{
+    height:24px;
+    width:auto;
+    float:left;
+  }
+
+  .mark{
+    background-color:rgba(81, 202, 239,.4);
   }
 
   hr{
@@ -190,4 +209,96 @@
   .writeup{
     width:70%;
     display:relative;
+  }
+
+  .carri{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid black;
+  }
+
+  .headshot{
+    width: 70%;
+    height: auto;
+    position:relative;
+    border-radius:20px;
+  }
+
+  .overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#B1C9EB;
+    border-radius:25px;
+    margin-bottom:30px;
+  }
+
+  .card6:hover .overlay6 {
+    opacity: 1;
+  }
+
+  .overlay7 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#DDD9FA;
+    border-radius:25px;
+    margin-bottom:30px;
+  }
+
+  .card7:hover .overlay7 {
+    opacity: 1;
+  }
+
+  .overlay8 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#93D1CC;
+    border-radius:25px;
+    margin-bottom:30px;
+  }
+
+  .card8:hover .overlay8 {
+    opacity: 1;
+  }
+
+  .cards1 {
+    width: 80%;
+    height: auto;
+    padding:0px 0px 30px 0px;
+    position:relative;
+  }
+
+  iframe{
+    height:300px;
+    width:70%;
+    display:block;
+    margin: 0 auto;
+  }
+
+  .logo{
+    width:40%;
+    height: auto;
+    position:relative;
+    border: 5px solid black;
   }
