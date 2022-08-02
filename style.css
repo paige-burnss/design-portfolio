@@ -203,7 +203,24 @@
     width: 70%;
     height: auto;
     position:relative;
-    border: 5px solid black;
+  }
+
+  .screenshots1{
+    width: 80%;
+    height: auto;
+    position:relative;
+  }
+
+  .screenshots2{
+    width: 100%;
+    height: auto;
+    position:relative;
+  }
+
+  .screenshots3{
+    width: 50%;
+    height: auto;
+    position:relative;
   }
 
   .writeup{
@@ -215,7 +232,19 @@
     width: 70%;
     height: auto;
     margin: 0 auto;
-    border: 5px solid black;
+    border: 5px black solid;
+  }
+
+  .carri2{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .carri3{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
   }
 
   .headshot{
@@ -300,43 +329,12 @@
     width:40%;
     height: auto;
     position:relative;
-    border: 5px solid black;
   }
 
-  .gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
-  }
-  
-  .gallery .pics {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-  }
-  
-  .gallery .animation {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-  
-  @media (max-width: 450px) {
-    .gallery {
-      -webkit-column-count: 1;
-      -moz-column-count: 1;
-      column-count: 1;
-      -webkit-column-width: 100%;
-      -moz-column-width: 100%;
-      column-width: 100%;
-    }
-  }
-  
-  @media (max-width: 400px) {
-    .btn.filter {
-      padding-left: 1.1rem;
-      padding-right: 1.1rem;
-    }
-  }
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
