@@ -223,6 +223,13 @@
     position:relative;
   }
 
+  .resume{
+    width:100%;
+    height:auto;
+    position: relative;
+    border: 5px black solid;
+  }
+
   .writeup{
     width:70%;
     display:relative;
@@ -326,7 +333,7 @@
   }
 
   .logo{
-    width:40%;
+    width:30%;
     height: auto;
     position:relative;
   }
