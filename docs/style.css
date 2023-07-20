@@ -13,22 +13,58 @@
 
   h3 {
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300px;
   }
   h4{
-    font-size:20px;
+    font-size:22px;
     text-align:left;
     font-weight:bold;
   }
+  h5{
+    font-size:18px;
+  }
   h6{
     line-height:1.6;
+    font-size:15px;
+  }
+
+  .shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .image-stack {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+    left: 6.5%;
+  }
+  
+  .image-stack__item--bottom {
+    grid-column: 5 / -1;
+    grid-row: 1;
+    padding-top: 20%;
+  }
+  
+  .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    z-index: 1;
+  }
+  
+  .overlap {
+    width: 80%;
+    display: block;
+  }
+
+  iframe{
+    border: none;
   }
   
   /* Navigation Bar / Header */
   .nav-link {
     color: rgb(189, 189, 189);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400px;
   }
 
@@ -50,17 +86,42 @@
     text-decoration: none;
   }
 
+  .bignav{
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .navbar{
+    padding:2% 15% 1% 15%;
+  }
+
 
   /* Project Page */
+ .toppic{
+  text-align:center;
+  width:100%;
+  position: relative;
+ }
+
+  .statement{
+  font-size: 18px;
+  text-align: center;
+ }
+
   .shortintro {
     margin: 4% 15% 4% 15%;
   }
 
+  .cardd{
+    border-radius:15px;
+  }
+
   .cards {
-    width: 100%;
+    width: 70%;
     height: auto;
     padding:0px 0px 30px 0px;
     position:relative;
+    border-radius:15px;
   }
 
   .overlay1 {
@@ -108,21 +169,6 @@
     margin-bottom:30px;
   }
 
-  .overlay4 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color:#60BCFF;
-    border-radius:15px;
-    margin-bottom:30px;
-  }
-
   .overlay5 {
     position: absolute;
     top: 0;
@@ -134,6 +180,36 @@
     opacity: 0;
     transition: .5s ease;
     background-color:#544EA1;
+    border-radius:15px;
+    margin-bottom:30px;
+  }
+
+  .overlay9 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#a0aff7;
+    border-radius:15px;
+    margin-bottom:30px;
+  }
+
+  .overlay11 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#5DE1E1;
     border-radius:15px;
     margin-bottom:30px;
   }
@@ -150,17 +226,21 @@
     opacity: 1;
   }
 
-  .card4:hover .overlay4 {
+  .card5:hover .overlay5 {
     opacity: 1;
   }
 
-  .card5:hover .overlay5 {
+  .card9:hover .overlay9 {
+    opacity: 1;
+  }
+
+  .card11:hover .overlay11 {
     opacity: 1;
   }
 
   .text {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -183,8 +263,12 @@
     text-decoration: none;
   }
 
+  .backer{
+    padding:0% 15% 2% 15%;
+  }
+
   .backarrow{
-    height:24px;
+    height:20px;
     width:auto;
     float:left;
   }
@@ -227,7 +311,6 @@
     width:100%;
     height:auto;
     position: relative;
-    border: 5px black solid;
   }
 
   .writeup{
@@ -239,7 +322,6 @@
     width: 70%;
     height: auto;
     margin: 0 auto;
-    border: 5px black solid;
   }
 
   .carri2{
@@ -315,6 +397,44 @@
   }
 
   .card8:hover .overlay8 {
+    opacity: 1;
+  }
+
+  .overlay12 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#E2AAF1;
+    border-radius:25px;
+    margin-bottom:30px;
+  }
+
+  .card12:hover .overlay12 {
+    opacity: 1;
+  }
+
+  .overlay13{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#9ce57d;
+    border-radius:25px;
+    margin-bottom:30px;
+  }
+
+  .card13:hover .overlay13 {
     opacity: 1;
   }
 
