@@ -29,6 +29,10 @@
     font-size:15px;
   }
 
+  .small{
+    font-size:15px;
+  }
+
   .shadow{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
@@ -47,6 +51,12 @@
   }
   
   .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    z-index: 1;
+  }
+
+  .image-stack__item--top2 {
     grid-row: 1;
     grid-column: 1 / span 8;
     z-index: 1;
@@ -92,24 +102,22 @@
   }
 
   .navbar{
-    padding:2% 15% 1% 15%;
+    padding:2% 15.25% 1% 15.25%;
   }
 
 
   /* Project Page */
  .toppic{
-  text-align:center;
   width:100%;
-  position: relative;
  }
 
   .statement{
   font-size: 18px;
-  text-align: center;
  }
 
   .shortintro {
     margin: 4% 15% 4% 15%;
+    text-align: center;
   }
 
   .cardd{
@@ -184,21 +192,6 @@
     margin-bottom:30px;
   }
 
-  .overlay9 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color:#a0aff7;
-    border-radius:15px;
-    margin-bottom:30px;
-  }
-
   .overlay11 {
     position: absolute;
     top: 0;
@@ -227,10 +220,6 @@
   }
 
   .card5:hover .overlay5 {
-    opacity: 1;
-  }
-
-  .card9:hover .overlay9 {
     opacity: 1;
   }
 
@@ -314,12 +303,18 @@
   }
 
   .writeup{
-    width:70%;
+    width:72%;
     display:relative;
   }
 
   .carri{
     width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .carri1{
+    width: 80%;
     height: auto;
     margin: 0 auto;
   }
@@ -435,6 +430,25 @@
   }
 
   .card13:hover .overlay13 {
+    opacity: 1;
+  }
+
+  .overlay14{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#079fff;
+    border-radius:25px;
+    margin-bottom:30px;
+  }
+
+  .card14:hover .overlay14 {
     opacity: 1;
   }
 
